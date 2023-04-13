@@ -1,0 +1,16 @@
+// tasks.json file that sets ctrl + shift + b to the command "docs:dev"
+
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "vitepress dev",
+      "type": "shell",
+      "command": "npm run docs:dev",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
